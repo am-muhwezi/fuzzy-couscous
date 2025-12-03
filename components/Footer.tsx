@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-slate-400">
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="mt-1 text-gold-DEFAULT flex-shrink-0" />
-                <span>123 Financial District Blvd<br />Suite 400<br />New York, NY 10005</span>
+                <span>8 The Green, Ste R. Dover, DE 19901</span>
               </li>
               <li>
                 <span className="block text-white mb-1">Direct Inquiry</span>
