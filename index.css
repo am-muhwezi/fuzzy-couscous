@@ -1,0 +1,22 @@
+/* Global page styles and custom scrollbar moved from index.html */
+
+body {
+  background-color: #1a1a3e;
+  color: #e5e5e5;
+  margin: 0;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1a1a3e;
+}
+::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
