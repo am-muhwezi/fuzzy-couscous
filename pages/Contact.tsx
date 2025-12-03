@@ -70,7 +70,7 @@ const Contact: React.FC = () => {
                         </div>
                         <div>
                             <h3 className="text-white font-medium text-lg">Visit Us</h3>
-                            <p className="text-slate-400">123 Financial District Blvd, Suite 400<br/>New York, NY 10005</p>
+                            <p className="text-slate-400">8 The Green, Ste R. Dover, DE 19901</p>
                         </div>
                     </div>
                 </div>
