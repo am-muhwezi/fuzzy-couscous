@@ -9,7 +9,7 @@ const teamMembers: TeamMember[] = [
     name: "Darrell Muhwezi",
     role: "Founder & Managing Partner",
     bio: "As Managing Partner, Darrell is the lead operator for Aegis acquisitions. He personally manages transitions, oversees P&L, and executes long-term growth strategies. His core expertise lies in implementing marketing and tech systems for rapid scaling. As an Operating Partner at Power Studio, he has a quantifiable track record of helping service-based companies add $100k-$1M in new annual revenue.",
-    image: "/Darrell.jpeg",
+    image: "/images/Darrell.jpeg",
     linkedin: "https://linkedin.com/in/darrellmuhwezi"
   },
   {

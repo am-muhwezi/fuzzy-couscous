@@ -8,7 +8,7 @@ const Logo: React.FC<LogoProps> = ({ className = "h-10 w-auto" }) => {
   return (
     <div className={`flex items-center gap-3 ${className}`}>
       <img
-        src="/Aegis Logo PNG.png"
+        src="/images/aegislogo.png"
         alt="Aegis Keystone Holdings"
         className="h-full w-auto"
       />

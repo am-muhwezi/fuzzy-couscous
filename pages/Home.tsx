@@ -89,14 +89,16 @@ const Home: React.FC = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8 }}
-                className="relative"
+                className="relative flex items-center justify-center"
             >
                 <div className="absolute -inset-4 border border-gold-DEFAULT/20 rounded-sm"></div>
-                <img 
-                    src="https://picsum.photos/id/180/800/600" 
-                    alt="Meeting" 
-                    className="w-full h-auto rounded-sm shadow-2xl filter grayscale opacity-90"
-                />
+                <div className="bg-white/5 p-16 rounded-sm shadow-2xl backdrop-blur-sm">
+                  <img
+                      src="/images/aegislogo.png"
+                      alt="Aegis Keystone Holdings Logo"
+                      className="w-full h-auto max-w-md opacity-90"
+                  />
+                </div>
             </motion.div>
           </div>
         </div>
