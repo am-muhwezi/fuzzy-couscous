@@ -1,0 +1,20 @@
+{
+  "name": "aegiserver",
+  "version": "1.0.0",
+  "description": "Backend for Aegis' Site",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aegiskeystone/fuzzy-couscous/fork"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
