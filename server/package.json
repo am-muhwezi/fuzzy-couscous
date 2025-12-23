@@ -5,16 +5,20 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "YahwehsDelight",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aegiskeystone/fuzzy-couscous/fork"
+    "url": "https://github.com/aegiskeystone/fuzzy-couscous/"
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "better-sqlite3": "^12.5.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
   }
 }
