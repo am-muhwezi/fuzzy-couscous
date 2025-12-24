@@ -1,12 +1,11 @@
 import dotenv from 'dotenv';
-import express from 'express';
+import app from './app.js';
 import Database from 'better-sqlite3';
 
 dotenv.config({
     path: './.env'
 });
 
-const app = express();
 
 const db = new Database(process.env.DB_PATH);
 app.get('/', (req, res) => {

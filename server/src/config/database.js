@@ -1,8 +1,8 @@
-
+import dotenv from 'dotenv';
 
 const Database = require('better-sqlite3');
-require('dotenv').config();
 
+dotenv.config();
 
 const db = new Database(process.env.DB_PATH);
 
