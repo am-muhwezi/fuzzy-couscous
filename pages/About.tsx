@@ -21,7 +21,7 @@ const teamMembers: TeamMember[] = [
   },
   {
     name: "Jeremiah Attaochu",
-    role: "Investor & Partner - Head of Partnerships",
+    role: "Head of Partnerships",
     bio: "A key capital partner bringing unique dual-track experience as both a successful entrepreneur and a former NFL linebacker. Jeremiah applies the discipline and high-performance team building of elite sports to business ventures. He provides significant capital backing and focuses on high-level strategy to fuel the firm's acquisition and roll-up strategy.",
     image: "/images/Jeremiah.jpeg", // Placeholder
     instagram: "https://www.instagram.com/jattaochu97"
